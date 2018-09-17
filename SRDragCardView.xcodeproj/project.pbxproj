@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71130567214BB4FC00408F5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71130566214BB4FC00408F5F /* AppDelegate.m */; };
+		7113056A214BB4FC00408F5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71130569214BB4FC00408F5F /* ViewController.m */; };
+		7113056D214BB4FC00408F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7113056B214BB4FC00408F5F /* Main.storyboard */; };
+		7113056F214BB4FF00408F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7113056E214BB4FF00408F5F /* Assets.xcassets */; };
+		71130572214BB4FF00408F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71130570214BB4FF00408F5F /* LaunchScreen.storyboard */; };
+		71130575214BB4FF00408F5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71130574214BB4FF00408F5F /* main.m */; };
+		71130581214BB65400408F5F /* SRDragCardItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7113057D214BB65400408F5F /* SRDragCardItemView.m */; };
+		71130582214BB65400408F5F /* SRDragCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7113057E214BB65400408F5F /* SRDragCardView.m */; };
+		71130585214BC54C00408F5F /* MYCardItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71130584214BC54C00408F5F /* MYCardItemView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71130562214BB4FC00408F5F /* SRDragCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRDragCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71130565214BB4FC00408F5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71130566214BB4FC00408F5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71130568214BB4FC00408F5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71130569214BB4FC00408F5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7113056C214BB4FC00408F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7113056E214BB4FF00408F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71130571214BB4FF00408F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71130573214BB4FF00408F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71130574214BB4FF00408F5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7113057C214BB65400408F5F /* SRDragCardItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDragCardItemView.h; sourceTree = "<group>"; };
+		7113057D214BB65400408F5F /* SRDragCardItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDragCardItemView.m; sourceTree = "<group>"; };
+		7113057E214BB65400408F5F /* SRDragCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDragCardView.m; sourceTree = "<group>"; };
+		7113057F214BB65400408F5F /* SRCardHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCardHeader.h; sourceTree = "<group>"; };
+		71130580214BB65400408F5F /* SRDragCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDragCardView.h; sourceTree = "<group>"; };
+		71130583214BC54C00408F5F /* MYCardItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYCardItemView.h; sourceTree = "<group>"; };
+		71130584214BC54C00408F5F /* MYCardItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYCardItemView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7113055F214BB4FC00408F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71130559214BB4FC00408F5F = {
+			isa = PBXGroup;
+			children = (
+				71130564214BB4FC00408F5F /* SRDragCardView */,
+				71130563214BB4FC00408F5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71130563214BB4FC00408F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71130562214BB4FC00408F5F /* SRDragCardView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71130564214BB4FC00408F5F /* SRDragCardView */ = {
+			isa = PBXGroup;
+			children = (
+				7113057B214BB50C00408F5F /* CardView */,
+				71130565214BB4FC00408F5F /* AppDelegate.h */,
+				71130566214BB4FC00408F5F /* AppDelegate.m */,
+				71130568214BB4FC00408F5F /* ViewController.h */,
+				71130569214BB4FC00408F5F /* ViewController.m */,
+				71130583214BC54C00408F5F /* MYCardItemView.h */,
+				71130584214BC54C00408F5F /* MYCardItemView.m */,
+				7113056B214BB4FC00408F5F /* Main.storyboard */,
+				7113056E214BB4FF00408F5F /* Assets.xcassets */,
+				71130570214BB4FF00408F5F /* LaunchScreen.storyboard */,
+				71130573214BB4FF00408F5F /* Info.plist */,
+				71130574214BB4FF00408F5F /* main.m */,
+			);
+			path = SRDragCardView;
+			sourceTree = "<group>";
+		};
+		7113057B214BB50C00408F5F /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				7113057F214BB65400408F5F /* SRCardHeader.h */,
+				7113057C214BB65400408F5F /* SRDragCardItemView.h */,
+				7113057D214BB65400408F5F /* SRDragCardItemView.m */,
+				71130580214BB65400408F5F /* SRDragCardView.h */,
+				7113057E214BB65400408F5F /* SRDragCardView.m */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71130561214BB4FC00408F5F /* SRDragCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71130578214BB4FF00408F5F /* Build configuration list for PBXNativeTarget "SRDragCardView" */;
+			buildPhases = (
+				7113055E214BB4FC00408F5F /* Sources */,
+				7113055F214BB4FC00408F5F /* Frameworks */,
+				71130560214BB4FC00408F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRDragCardView;
+			productName = SRDragCardView;
+			productReference = 71130562214BB4FC00408F5F /* SRDragCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7113055A214BB4FC00408F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = CZN;
+				TargetAttributes = {
+					71130561214BB4FC00408F5F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7113055D214BB4FC00408F5F /* Build configuration list for PBXProject "SRDragCardView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71130559214BB4FC00408F5F;
+			productRefGroup = 71130563214BB4FC00408F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71130561214BB4FC00408F5F /* SRDragCardView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71130560214BB4FC00408F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71130572214BB4FF00408F5F /* LaunchScreen.storyboard in Resources */,
+				7113056F214BB4FF00408F5F /* Assets.xcassets in Resources */,
+				7113056D214BB4FC00408F5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7113055E214BB4FC00408F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7113056A214BB4FC00408F5F /* ViewController.m in Sources */,
+				71130582214BB65400408F5F /* SRDragCardView.m in Sources */,
+				71130575214BB4FF00408F5F /* main.m in Sources */,
+				71130585214BC54C00408F5F /* MYCardItemView.m in Sources */,
+				71130581214BB65400408F5F /* SRDragCardItemView.m in Sources */,
+				71130567214BB4FC00408F5F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7113056B214BB4FC00408F5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7113056C214BB4FC00408F5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71130570214BB4FF00408F5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71130571214BB4FF00408F5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71130576214BB4FF00408F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71130577214BB4FF00408F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71130579214BB4FF00408F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRDragCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.czn.SRDragCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7113057A214BB4FF00408F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRDragCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.czn.SRDragCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7113055D214BB4FC00408F5F /* Build configuration list for PBXProject "SRDragCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71130576214BB4FF00408F5F /* Debug */,
+				71130577214BB4FF00408F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71130578214BB4FF00408F5F /* Build configuration list for PBXNativeTarget "SRDragCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71130579214BB4FF00408F5F /* Debug */,
+				7113057A214BB4FF00408F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7113055A214BB4FC00408F5F /* Project object */;
+}
