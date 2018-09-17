@@ -30,7 +30,22 @@
                         @1,@1,@1,@1,@1] mutableCopy];
     [self.dragCardView reloadData];
     self.isAnimation = NO;
+    UIButton *button = ({
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        button.frame = CGRectMake(0, CGRectGetMaxY(self.dragCardView.frame)+10, 160, 44);
+        button.center = CGPointMake(self.view.center.x, button.center.y);
+        [button setTitle:@"重置" forState:UIControlStateNormal];
+        [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        button.titleLabel.font = [UIFont systemFontOfSize:15.f];
+        [button addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
+        button;
+    });
+    [self.view addSubview:button];
 
+}
+#pragma mark ->btnAction
+- (void)btnAction:(id)sender{
+    [self.dragCardView refreshAllCards];
 }
 #pragma mark ->SRDragCardViewDelegate,SRDragCardViewDataSource
 - (NSInteger)numberOfItemsInCardView:(SRDragCardView *)cardView{
